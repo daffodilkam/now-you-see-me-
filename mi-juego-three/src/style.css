@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  overflow: hidden;
+  background-color: #000000;
+  font-family: sans-serif;
+}
+
+#vida, #flores, #estado, #tiempo 
+{
+  position: absolute;
+  left: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  z-index: 10; /* encima del canvas */
+}
+
+#vida { top: 10px; }
+#flores { top: 40px; }
+#estado { top: 70px; }
+#tiempo { top: 100px; }
+
+#hud span 
+{
+  margin-right: 15px;
+}
